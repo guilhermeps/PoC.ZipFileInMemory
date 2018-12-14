@@ -17,4 +17,9 @@
     <ProjectReference Include="..\..\src\PoC.ZipFileInMemory\PoC.ZipFileInMemory.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Include="Images\*.*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>  
+  </ItemGroup>
 </Project>
