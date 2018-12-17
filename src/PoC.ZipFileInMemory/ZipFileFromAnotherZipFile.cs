@@ -24,7 +24,7 @@ namespace PoC.ZipFileInMemory
         {
             byte[] newZipFileByteArray = null;
 
-            if (zipToRead == null || zipToRead.Length == 0)
+            if (zipToRead == null || zipToRead?.Length == 0)
                 throw new ArgumentException("Invalid byte array.");
             
             try

@@ -49,7 +49,7 @@ namespace PoC.ZipFileInMemory
             }
             catch (Exception ex)
             {
-                // something went very bad
+                // something went really bad
                 throw ex;
             }
         }
